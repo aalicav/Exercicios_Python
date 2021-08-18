@@ -1,0 +1,6 @@
+num = input('Digite um numero qualquer e pressione enter:')
+num = num.strip()
+print('milhares: {}'.format(num[0:1]))
+print('centenas: {}'.format(num[1:2]))
+print('dezenas: {}'.format(num[2:3]))
+print('unidades:{}'.format(num[3:4]))
