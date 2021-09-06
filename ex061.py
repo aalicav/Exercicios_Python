@@ -1,16 +1,18 @@
 a_1 = int(input('Insira aqui o primeiro termo da P.A'))
 r = int(input('Insira aqui a razão da P.A'))
-c = 0 
-t = False
-while t == False:
-    c += 1
-    if c == 10:
-        print(a_1 + (c-1)*r, end=',')
-        c = int(input('Você quer mostrar mais fotos? Se sim, diga quantos:'))
-        print(a_1 + (c-1)*r, end=',')        
-    c = int(input('Você quer mostrar mais fotos? Se sim, diga quantos:'))
-    if c == 0:
-        t = True
+c = n = 0 
+m = 10
+while m != 0:
+    n += m
+    while c <= n:
+        c += 1
+        print(a_1+(c-1)*r, end=',')
+    m = int(input('\nQuantos números a mais dessa PA você gostaria de ver?'))      
+
+            
+
+
+
 
     
     
